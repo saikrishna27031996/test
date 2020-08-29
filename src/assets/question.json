@@ -1,0 +1,78 @@
+[{
+    "id":"12345",
+    "questionText":"What is the colour of Apple",
+    "anserOptions": ["Red","White","Blue","Yellow"],
+    "correctAnswer":"Red",
+    "author":"Unknown",
+    "stats":{
+        "lastAskerDate":"29-08-2020",
+"askedCount":"2",
+"correctAnsweredPercent":"90"
+
+    }
+},
+{
+    "id":"22345",
+    "questionText":"What is the full form of ATM?",
+    "anserOptions": ["Automated Tallying Machine","Automatic Teller Machine","Automated Totalling Machine","Automated Transaction of Money"],
+    "correctAnswer":"Automatic Teller Machine",
+    "author":"Unknown",
+    "stats":{
+        "lastAskerDate":"29-08-2020",
+        "askedCount":"3",
+         "correctAnsweredPercent":"70"
+
+    }
+},
+{
+    "id":"32345",
+    "questionText":"What is the full form of BRIC?",
+    "anserOptions": ["Bangladesh, Romania, Indonesia and Cambodia","Botswana, Rwanda, Ivory Coast and Croatia","Bangladesh, Romania, India and Cambodia","Brazil, Russia, India and China"],
+    "correctAnswer":"Brazil, Russia, India and China",
+    "author":"Unknown",
+    "stats":{
+        "lastAskerDate":"29-08-2020",
+"askedCount":"4",
+"correctAnsweredPercent":"90"
+
+    }
+},
+{
+    "id":"42345",
+    "questionText":"What is the full form of EVM?",
+    "anserOptions": ["Electronic Voting Machines","Electronic Voters Machines","Electrical Voting Machines","Electronic Vote Machines"],
+    "correctAnswer":"Electronic Voting Machines",
+    "author":"Unknown",
+    "stats":{
+        "lastAskerDate":"29-08-2020",
+"askedCount":"5",
+"correctAnsweredPercent":"80"
+
+    }
+},
+{
+    "id":"52345",
+    "questionText":"What is the full form of IRBM?",
+    "anserOptions": ["Intermediate Resource Ballistic Missile","Intermediate Range Ballistic Missile","Intermediate Range of Ballistic Missile","Intermediated Range Ballistic Missile"],
+    "correctAnswer":"Intermediate Range Ballistic Missile",
+    "author":"Unknown",
+    "stats":{
+        "lastAskerDate":"29-08-2020",
+"askedCount":"6",
+"correctAnsweredPercent":"50"
+
+    }
+},
+{
+    "id":"13345",
+    "questionText":"What is the full form of PIN?",
+    "anserOptions": ["Postal Indent Number","Postal Index Number","Past Index Number","Postman Index Number"],
+    "correctAnswer":"Postal Index Number",
+    "author":"Unknown",
+    "stats":{
+        "lastAskerDate":"29-08-2020",
+"askedCount":"7",
+"correctAnsweredPercent":"50"
+
+    }
+}]

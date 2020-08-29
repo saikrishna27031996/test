@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<div class="container">
+    <!-- Content here -->
+<div class="jumbotron">
+    <input type="text" [(ngModel)]="searchString" class="form-control"  aria-describedby="emailHelp" placeholder="Search Questions" (input)='onSearch()'>
+   
+    <p>questions-list works!</p>
+
+<div class="list-group">
+    <a [routerLink]="['../question']" class="list-group-item list-group-item-action flex-column align-items-start"  class="col-12" *ngFor="let question of filteredList" (click)='onSubmit(question)'>
+      <div class="d-flex w-100 justify-content-between" >
+ 
+        <h5 class="mb-1">{{question.questionText}}</h5>
+        <small>{{question.id}}</small>
+ 
+      </div>
+    </a>
+</div>
+</div>
+  </div>
